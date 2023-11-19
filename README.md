@@ -4,11 +4,17 @@
 
 ## Credentials Table
 
+<center>
+
 | Role          | Email                     | Password   |
 |---------------|---------------------------|------------|
 | Super Admin   | superadmin@xplore.com     | 123456     |
 | Admin         | admin@xplore.com          | 123456     |
 | Tourist       | tourist@xplore.com        | 123456     |
+
+</center>
+
+
 
 ### How to Use Credentials
 
@@ -99,3 +105,86 @@ Collaboration and Communication:
 - Communication (e.g., Slack) 💬
 
 ```
+
+
+## User Features 🧑‍💼
+1. **Registration and Authentication** 📝🔐
+    - User registration with a valid email address and secure password.
+    - Password validation and encryption for user security.
+    - User login system for account access.
+  
+2. **Profile Management** 🧑‍🤝‍🧑
+    - Creation and comprehensive management of user profiles, including personal information and travel preferences.
+    - A user-friendly interface for editing profiles with ease.
+    - Profile viewing and editing capabilities.
+  
+3. **Service Browsing** 🌐🔍
+    - Seamless browsing of available travel services.
+    - Advanced search functionality allowing users to find services by name, location, and category.
+    - User-friendly filters for services based on price range and other relevant criteria.
+  
+4. **Booking Services** 🗓️🎫
+    - Intuitive service selection with available dates and times.
+    - A smooth and user-friendly booking process with instant confirmation.
+    - Real-time tracking of booking status.
+    - Flexibility for users to cancel bookings when necessary.
+  
+5. **Reviews and Ratings** ⭐📝
+    - Opportunity for users to leave detailed reviews and ratings for services they've booked.
+    - Displaying reviews and ratings prominently on service listings.
+  
+6. **Notifications** 📬🔔
+    - A dedicated notifications center for users to receive booking confirmations, reminders, and important updates (optional - read-only).
+    - A user dashboard displaying complete booking history and statuses.
+  
+7. **Feedback** 🤔📣
+    - User-friendly feedback forms for comments and suggestions, ensuring an open channel for user input.
+
+## Admin Features 👨‍💼
+1. **Admin Dashboard** 🖥️📊
+    - A centralized dashboard offering administrators real-time insights and control over website activities.
+  
+2. **User Management** 👤✅
+    - Full authority to add, edit, and manage user accounts, ensuring smooth user experiences.
+  
+3. **Service Management** 🌐🛠️
+    - Comprehensive service management tools for administrators, allowing the addition, editing, and removal of service listings.
+    - Complete control over pricing, descriptions, and availability management.
+  
+4. **Booking Management** 🗓️📊
+    - A robust booking management system for administrators to view, accept, reject, or adjust schedules as needed.
+  
+5. **Content Management** 📄✏️
+    - An extensive content management system for administrators to control website content, including blog posts and FAQs.
+    - User-friendly admin profile management tools.
+
+## Super Admin Features 👑👨‍💼
+1. **Admin Management** 👨‍💼✨
+    - Super administrators can add new admin users to the system and define their roles.
+    - A dedicated profile management system for super administrators to update their personal information.
+
+
+
+
+# Installation 🛠️
+
+For a seamless setup of the Travel Agency Website, please consult our comprehensive installation documentation. This guide meticulously outlines the prerequisites, dependencies, and the deployment process, ensuring a smooth and hassle-free installation experience.
+
+---
+
+# Usage 🚀
+
+Unlock the full potential of the Travel Agency Website by delving into our detailed usage guide. This resource is crafted to cater to the needs of users, administrators, and super administrators. Gain valuable insights through step-by-step instructions, expert tips, and best practices, allowing you to navigate and leverage the website's features effectively.
+
+---
+
+# Contributing 🤝
+
+Your contributions to the Travel Agency Website are highly valued. If you aspire to contribute to this project, we encourage you to review our contribution guidelines. Familiarize yourself with the process of reporting issues or suggesting improvements. Your expertise and insights play a crucial role in enhancing the functionality and user experience of our platform.
+
+---
+
+# License 📜
+
+The Travel Agency Website is an open-source project, licensed under [Xplore]. We invite you to carefully review the license file for comprehensive details and licensing information. Your adherence to the licensing terms ensures a collaborative and transparent environment for the entire community.
+
