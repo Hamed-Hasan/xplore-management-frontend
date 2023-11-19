@@ -1,71 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
-    <title>Your README Title</title>
-</head>
-<body class="bg-gray-200 p-4 mb-12">
 
-   <div class=" bg-purple-900  py-9 px-6">
-   <h2 class="text-4xl text-center my-4 pb-10">XploreHub - Your Gateway to Seamless Travel Experiences</h2>
-  <div class="flex  md:flex-row gap-4">
-  
- <div class="flex flex-row m-auto bg-gradient-to-r from-purple-700 via-purple-800 to-purple-900 p-6 gap-8 rounded-lg border-2 border-purple-500">
-    <div class="my-auto">
-      <div class="text-lg text-purple-300">Credentials Super Admin</div>
-      <div class="text-2xl text-purple-100">email : superadmin@xplore.com</div>
-      <div class="text-2xl text-purple-100">pass: 123456</div>
-    </div>
-    <div class="text-purple-300 my-auto bg-gradient-to-l from-purple-700 via-purple-800 to-purple-900 rounded-full p-4">
-      <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" viewBox="0 0 20 20" fill="currentColor">
-        <path d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z" />
-      </svg> -->
-      <></>
-    </div>
-    
-  </div>
-
- <div class="flex flex-row m-auto bg-gradient-to-r from-purple-700 via-purple-800 to-purple-900 p-6 gap-8 rounded-lg border-2 border-purple-500">
-    <div class="my-auto">
-      <div class="text-lg text-purple-300">Credentials Admin</div>
-      <div class="text-2xl text-purple-100">email : admin@xplore.com </div>
-      <div class="text-2xl text-purple-100">pass: 123456</div>
-    </div>
-    <div class="text-purple-300 my-auto bg-gradient-to-l from-purple-700 via-purple-800 to-purple-900 rounded-full p-4">
-      <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" viewBox="0 0 20 20" fill="currentColor">
-        <path d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z" />
-      </svg> -->
-      <></>
-    </div>
-    
-  </div>
-
- <div class="flex flex-row m-auto bg-gradient-to-r from-purple-700 via-purple-800 to-purple-900 p-6 gap-8 rounded-lg border-2 border-purple-500">
-    <div class="my-auto">
-      <div class="text-lg text-purple-300">Credentials Tourist</div>
-      <div class="text-2xl text-purple-100">email : tourist@xplore.com</div>
-      <div class="text-2xl text-purple-100">pass: 123456</div>
-    </div>
-    <div class="text-purple-300 my-auto bg-gradient-to-l from-purple-700 via-purple-800 to-purple-900 rounded-full p-4">
-      <!-- <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12" viewBox="0 0 20 20" fill="currentColor">
-        <path d="M5.5 16a3.5 3.5 0 01-.369-6.98 4 4 0 117.753-1.977A4.5 4.5 0 1113.5 16h-8z" />
-      </svg> -->
-      <></>
-    </div>
-    
-  </div>
-  </div>
+# XploreHub - Your Gateway to Seamless Travel Experiences
 
 
-  </div>
-</body>
-</html>
+## Credentials Table
 
+| Role          | Email                     | Password   |
+|---------------|---------------------------|------------|
+| Super Admin   | superadmin@xplore.com     | 123456     |
+| Admin         | admin@xplore.com          | 123456     |
+| Tourist       | tourist@xplore.com        | 123456     |
 
-<h2 class="text-4xl mt-5 font-bold">Introduction</h2>
+### How to Use Credentials
 
+1. **Super Admin:**
+   - Email: superadmin@xplore.com
+   - Password: 123456
+   - The Super Admin has access to all features and functionalities of the website, including user, service, and content management. Use these credentials to log in and manage the website at an administrative level.
+
+2. **Admin:**
+   - Email: admin@xplore.com
+   - Password: 123456
+   - Admin accounts have control over user management, service management, booking management, and content management. Log in using these credentials to access the admin dashboard and perform administrative tasks.
+
+3. **Tourist:**
+   - Email: tourist@xplore.com
+   - Password: 123456
+   - Tourist accounts are for regular users who can browse and book travel services. Use these credentials to log in as a tourist, explore available services, and make bookings on the website.
+
+Make sure to keep these credentials secure and not share them with unauthorized individuals. If you have any specific tasks related to these credentials or the website, feel free to let me know!
 
 🌍 **Welcome to XploreHub - Your Gateway to Extraordinary Travel Experiences!**
 
@@ -74,7 +36,8 @@ Unveil the magic of the Travel Agency Website through this detailed README, wher
 Embark on a journey with us as we delve into the intricacies that make XploreHub the epitome of seamless travel exploration.
 
 
-<h2 class="text-4xl mt-5 font-bold">Table of Contents</h2>
+
+# Table of Contents
 
 ```
 
