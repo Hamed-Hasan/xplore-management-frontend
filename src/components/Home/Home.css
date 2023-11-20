@@ -1,0 +1,168 @@
+/* Add this custom CSS to your Home.css file or a separate CSS file */
+.banner-slide {
+  position: relative;
+  overflow: hidden;
+}
+
+.zoom-background {
+  background-image: url("../../assets/banner/pic1.jpg");
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  animation: zoomInOut 6s ease-in-out infinite alternate;
+  filter: brightness(40%);
+  background-position: center;
+}
+
+.zoom-background1 {
+  background-image: url("../../assets/banner/pic2.jpg");
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  animation: zoomInOut 6s ease-in-out infinite alternate;
+  filter: brightness(40%);
+  background-position: center;
+}
+
+.zoom-background2 {
+  background-image: url("../../assets/banner/pic3.jpg");
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  animation: zoomInOut 6s ease-in-out infinite alternate;
+  filter: brightness(40%);
+  background-position: center;
+}
+
+.zoom-background3 {
+  background-image: url("../../assets/banner/pic4.jpg");
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  animation: zoomInOut 6s ease-in-out infinite alternate;
+  filter: brightness(40%);
+  background-position: center;
+}
+
+.zoom-background4 {
+  background-image: url("../../assets/banner/pic5.jpg");
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  animation: zoomInOut 6s ease-in-out infinite alternate;
+  filter: brightness(40%);
+  background-position: center;
+}
+
+@keyframes zoomInOut {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Apply the slide-in animations to the text elements */
+.text-a {
+  opacity: 0;
+  animation: fadeIn 5s ease-in-out forwards infinite;
+}
+
+.font-b {
+  animation: slideFromTop 5s ease-in-out forwards infinite;
+}
+
+.font-c {
+  animation: slideFromBottom 5s ease-in-out forwards infinite;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.custom-button {
+  position: absolute;
+  bottom: 20px; /* Adjust the vertical position as needed */
+  right: 20px; /* Adjust the horizontal position as needed */
+  background-color: #0074b7; /* Change button background color */
+  color: white; /* Change button text color */
+  font-size: 24px; /* Adjust the font size */
+  width: 40px; /* Adjust the button width */
+  height: 40px; /* Adjust the button height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Makes the button round */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.custom-button:hover {
+  background-color: #00578a; /* Change button background color on hover */
+}
+
+/* Views */
+
+.slideshow .card {
+  width: 24%;
+  height: 100px;
+}
+.slideshow .card .overlay-text {
+  bottom: 20px;
+}
+.slideshow .card img {
+  object-fit: cover;
+  width: 100%;
+  filter: brightness(50%);
+  height: 300px;
+}
+
+/* Banner */
+
+#custom-prev,
+#custom-next {
+  width: 50px;
+  height: 50px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  z-index: 999;
+}
+
